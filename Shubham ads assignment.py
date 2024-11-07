@@ -62,10 +62,10 @@ stats_summary = calculate_statistics(df)
 print("Statistical Summary:\n", stats_summary)
 
 # Plot histogram for a selected column
-plot_histogram(df, column='Population')  # Replace 'GDP' with an actual column name from the dataset
+plot_histogram(df, column='Population') 
 
 # Plot line chart for selected x and y columns
-plot_line_chart(df, x_column='Year', y_column='Population')  # Replace 'Year' and 'GDP' with actual column names
+plot_line_chart(df, x_column='Year', y_column='Population')  
 
 # Plot heatmap
 plot_heatmap(df)
